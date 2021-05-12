@@ -1,38 +1,99 @@
 .App {
-  text-align: center;
+    width: 360px;
+    height: 640px;
+    padding: 132px 36px 24px 69px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.book__image{
+    position: absolute;
+    left: 140px;
+    top: 132px;
+    width: 101.5px;
+    height: 115px;
+    padding: 1.9px 2.2px 1.9px 1.5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tutor__help {
+    position: absolute;
+    left: 69px;
+    top: 271px;
+    width: 223px;
+    height: 48px;
+    margin: 24px 32px 24px 0;
+    font-family: WorkSans;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -1.25px;
+    text-align: center;
+    color: #000000;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.compliments {
+    position: absolute;
+    width: 101px;
+    height: 34px;
+    margin: 36px 95px 133px 59px;
+    padding: 8px 24px;
+    border-radius: 100px;
+    border: solid 2px #2cc6d0;
 }
 
-.App-link {
-  color: #61dafb;
+.compliments__button {
+  position: absolute;
+  width: 53px;
+  height: 18px;
+  font-family: WorkSans;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #2cc6d0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.confirm {
+    position: absolute;
+    left: 175px;
+    top: 576px;
+    width: 149px;
+    height: 40px;
+    margin: 0 0 0 28px;
+    padding: 8px 19px 0;
+    border-radius: 100px;
+    background-color: #2cc6d0;
+}
+.confirm__button {
+    position: absolute;
+    width: 101px;
+    height: 24px;
+    margin: 0 5px 8px;
+    font-family: WorkSans;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+}
+
+.skip__button {
+    position: absolute;
+    left: 91px;
+    top: 585px;
+    width: 56px;
+    height: 24px;
+    margin: 9px 28px 7px 0;
+    font-family: WorkSans;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: #000000;
 }
