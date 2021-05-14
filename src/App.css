@@ -1,44 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;600&display=swap');
+
 .App {
-    width: 360px;
-    height: 640px;
-    padding: 132px 36px 24px 69px;
+    width: 1200px;
+    height: 768px;
+    padding: 0 0 84px;
 }
 
 .book__image{
     position: absolute;
-    left: 140px;
-    top: 132px;
+    top: 192px;
+    left: 547px;
+    bottom: 426px;
+    right: 520.6px;
     width: 101.5px;
     height: 115px;
     padding: 1.9px 2.2px 1.9px 1.5px;
 }
 
-.tutor__help {
+
+.tutor {
     position: absolute;
-    left: 69px;
-    top: 271px;
-    width: 223px;
-    height: 48px;
+    top: 366px;
+    left: 454px;
+    bottom: 334px;
+    right: 454px;
+    width: 292px;
+    height: 68px;
     margin: 24px 32px 24px 0;
-    font-family: WorkSans;
+    font-family: 'Work Sans', 'semi-bold';
     font-size: 24px;
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1;
+    line-height: 34px;
     letter-spacing: -1.25px;
     text-align: center;
     color: #000000;
-}
-
-.compliments {
-    position: absolute;
-    width: 101px;
-    height: 34px;
-    margin: 36px 95px 133px 59px;
-    padding: 8px 24px;
-    border-radius: 100px;
-    border: solid 2px #2cc6d0;
 }
 
 .compliments__button {
@@ -96,4 +93,57 @@
     line-height: 1.5;
     letter-spacing: 0.5px;
     color: #000000;
+}
+
+.star__1 {
+    position: absolute;
+    top: 458px;
+    left: 499px;
+    right: 687px;
+    bottom: 284px;
+    width: 31px;
+    height: 30px;
+    margin: 0 12px;
+    object-fit: contain;
+}
+
+.star__2 {
+    position: absolute;
+    top: 458px;
+    left: 542px;
+    bottom: 280px;
+    right: 627px;
+    width: 31px;
+    height: 30px;
+    margin: 0 12px;
+    object-fit: contain;
+}
+
+.star__3 {
+    position: absolute;
+    top: 458px;
+    left: 585px;
+    width: 31px;
+    height: 30px;
+    margin: 0 12px;
+    object-fit: contain;
+}
+
+.star__4 {
+    position: absolute;
+    top: 458px;
+    left: 628px;
+    width: 31px;
+    height: 30px;
+    margin: 0 12px;
+    object-fit: contain;
+}
+.star__5 {
+    position: absolute;
+    top: 458px;
+    left: 671px;
+    width: 31px;
+    height: 30px;
+    margin: 0 0 0 12px;
+    object-fit: contain;
 }

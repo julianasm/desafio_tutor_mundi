@@ -1,4 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;600&display=swap');
+
+.send__compliment {
+    width: 144px;
+    height: 24px;
+    margin: 60px 56px 12px 356px;
+    font-family: 'WorkSans', 'semi-bold';
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.83px;
+    color: #000000;
+}
+
+
+.compliment__box {
+    top: 524px;
+    left: 550px;
+    right: 549px;
+    bottom: 210px;
+    width: 101px;
+    height: 34px;
+    margin: 36px 549px 86px 550px;
+    padding: 8px 24px;
+    border-radius: 100px;
+    border: solid 2px #2cc6d0;
+}
+
+.compliment {
+    width: 53px;
+    height: 18px;
+    font-family: 'WorkSans', 'semi-bold';
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #2cc6d0;
+}
+
+
 .compliment__1 {
+    position: absolute;
+    top: 307px;
+    left: 356px;
+    bottom: 359px;
+    right: 756px;
     width: 88px;
     height: 102px;
     margin: 12px 11px 24px 356px;
@@ -8,13 +57,16 @@
 }
 
 .light__bulb {
+    position: absolute;
     width: 30px;
     height: 36px;
     margin: 0 17px 6px;
-    background-color: #2cc6d0;
 }
 
 .compliment__2 {
+    position: absolute;
+    top: 359px;
+    left: 456px;
     width: 88px;
     height: 102px;
     margin: 12px 12px 24px;
@@ -31,6 +83,9 @@
 }
 
 .compliment__3 {
+    position: absolute;
+    top: 359px;
+    left: 556px;
     width: 88px;
     height: 102px;
     margin: 12px 12px 24px;
@@ -47,6 +102,9 @@
 }
 
 .compliment__4 {
+    position: absolute;
+    top: 359px;
+    left: 656px;
     width: 88px;
     height: 102px;
     margin: 12px 12px 24px;
@@ -60,10 +118,12 @@
     height: 36px;
     margin: 0 17.9px 6px 17px;
     padding: 13.8px 6.9px 12.5px;
-    background-color: #2cc6d0;
 }
 
 .compliment__5 {
+    position: absolute;
+    top: 359px;
+    left: 756px;
     width: 88px;
     height: 102px;
     margin: 13px 356px 23px 9px;
@@ -77,4 +137,36 @@
     height: 5.2px;
     margin: 6.2px 2.1px 0 1px;
     border: solid 2px #2cc6d0;
+}
+
+
+.send__message {
+    top: 433px;
+    left: 356px;
+    position: absolute;
+    width: 123px;
+    height: 24px;
+    margin: 23px 4px 12px 356px;
+    font-family: WorkSans;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.83px;
+    color: #000000;
+}
+
+.send__box {
+    position: absolute;
+    top: 469px;
+    left: 356px;
+    bottom: 184px;
+    right: 356px;
+    width: 488px;
+    height: 115px;
+    margin: 12px 356px 60px;
+    padding: 11px 21px 60px 20px;
+    border-radius: 4px;
+    border: solid 2px rgba(0, 0, 0, 0.1);
 }

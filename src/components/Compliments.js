@@ -1,19 +1,21 @@
 import React, { useState } from 'react';
+import ReactDOM from 'react-dom'
 import lampada from '../images/lampada.svg' 
 import canivete from '../images/canivete.svg'
 import folha from '../images/checked-sheet.svg'
 import lupa from '../images/lupa.svg'
 import sorriso from '../images/smile-face.svg'
-import Modal from 'react-modal'
+import './Compliments.css'
 
+const Compliments = () => {
+    const [ showOptions , setShowOptions] = React.useState(false)
+    const onClick = () => setShowOptions(true)
 
-function Compliments (){
-    const [ modalIsOpen, setModalIsOpen ] = useState(false)
-
-        return (
-            <div>
-            <button onClick={() => setModalIsOpen(true) }> Elogios </button>
-                <Modal isOpen={ modalIsOpen }>
+                const Options = () => (
+                    <div className="compliment__container">
+                    <div>
+                        <p className="send__compliment">Envie um elogio</p>
+                    </div>
                     <div className="compliment__1">
                        <img className="light__bulb" 
                         alt="lampada" src=
@@ -44,14 +46,33 @@ function Compliments (){
                         src={ sorriso }></img>
                         <p className="text_5">Gente boasíssima</p>
                     </div>
-                </Modal>
-            </div>
-            
-        )
-    }
+                    <div className="send__message__alert">
+                    <p className="send__message">Deixe uma mensagem</p>
+                    <input type="text" className="send__box" ></input>
+                    </div>
+                    </div>
+                )
+
+                return (
+                <div className="compliment__box">
+                        <input className="compliment" 
+                        type="submit"
+                        value="Elogio"
+                        onClick={onClick} />
+                        { showOptions ? <Options /> : null }
+              </div>
+            )
+}
+
+
+
+
+
 
 
 export default Compliments
+
+ReactDOM.render(<Compliments />, document.querySelector("#container"))
 
 
 

@@ -1,7 +1,7 @@
-import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
 import React, { Component } from 'react';
 import Compliments from './components/Compliments'
 import book from './images/livro.png'
+import star from './images/estrela.svg'
 
 import './App.css';
 
@@ -13,26 +13,20 @@ class App extends Component {
         <img className="book__image" src={ book }></img>
       </div>
       <div className="tutor">
-        <p className="tutor__help">
           Como foi a ajuda do tutor?
-        </p>
       </div>
-      <Router>
-      <div className="compliments">
-        <Link to='/elogios'>
-         <p className="compliments__button" href='./components/elogios'>Elogios</p>
-        </Link>
+      <div className="stars">
+        <img className="star__1" src={ star } alt="estrela"/>
+        <img className="star__2" src={ star } alt="estrela"/>
+        <img className="star__3" src={ star } alt="estrela"/>
+        <img className="star__4" src={ star } alt="estrela"/>
+        <img className="star__5" src={ star } alt="estrela"/>
       </div>
-      <div className="confirm">
-        <p className="confirm__button">Confirmar</p> 
+      <div className="skip__compliment">
+        <p>Pular</p>
       </div>
-      <div className="skip">
-        <p className="skip__button">Pular</p>
-      </div>
-        <Switch>
-          <Route path='/elogios' component={ Compliments }/>
-        </Switch>
-      </Router>
+      <div className="cancel__compliment"></div>
+      <p>Cancelar</p>
     </div>
     )
   }
