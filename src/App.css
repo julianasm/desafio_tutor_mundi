@@ -31,6 +31,7 @@
 
 
 .confirm__compliment { 
+    position: absolute;
     width: 149px;
     height: 40px;
     margin: 0 0 0 28px;
@@ -38,7 +39,9 @@
     border-radius: 100px;
     background-color: #2cc6d0;
 }
+
 .confirm {
+    position: absolute;
     width: 101px;
     height: 24px;
     margin: 0 5px 8px;

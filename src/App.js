@@ -22,7 +22,7 @@ class App extends Component {
         <img className="star" src={ star } alt="estrela"/>
         <img className="star" src={ star } alt="estrela"/>
       </div>
-      <Compliments />
+        <Compliments />
       <div className="skip__compliment">
         <p className="skip"> PULAR </p>
       </div>

@@ -25,7 +25,7 @@ const Compliments = () => {
                     <div className="send__compliment">
                         Envie um elogio
                     </div>
-                    <ComplimentArray compliments={ compliments }/>
+                    <ComplimentArray className="caixinhas" compliments={ compliments }/>
                     
                     <div className="send__message__alert">
                         <p className="send__message">
