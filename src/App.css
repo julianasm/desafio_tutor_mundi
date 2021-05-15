@@ -1,17 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;600&display=swap');
 
 .App {
-    width: 1200px;
-    height: 768px;
-    padding: 0 0 84px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .book__image{
-    position: absolute;
-    top: 192px;
-    left: 547px;
-    bottom: 426px;
-    right: 520.6px;
     width: 101.5px;
     height: 115px;
     padding: 1.9px 2.2px 1.9px 1.5px;
@@ -19,11 +15,6 @@
 
 
 .tutor {
-    position: absolute;
-    top: 366px;
-    left: 454px;
-    bottom: 334px;
-    right: 454px;
     width: 292px;
     height: 68px;
     margin: 24px 32px 24px 0;
@@ -38,24 +29,8 @@
     color: #000000;
 }
 
-.compliments__button {
-  position: absolute;
-  width: 53px;
-  height: 18px;
-  font-family: WorkSans;
-  font-size: 12px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  color: #2cc6d0;
-}
 
-.confirm {
-    position: absolute;
-    left: 175px;
-    top: 576px;
+.confirm__compliment { 
     width: 149px;
     height: 40px;
     margin: 0 0 0 28px;
@@ -63,29 +38,28 @@
     border-radius: 100px;
     background-color: #2cc6d0;
 }
-.confirm__button {
-    position: absolute;
+.confirm {
     width: 101px;
     height: 24px;
     margin: 0 5px 8px;
-    font-family: WorkSans;
+    font-family: 'Work Sans', 'semi-bold';
     font-size: 16px;
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
+    text-align: center;
     line-height: 1.5;
     letter-spacing: 0.5px;
     color: #ffffff;
 }
 
-.skip__button {
-    position: absolute;
-    left: 91px;
-    top: 585px;
+
+
+.skip {
     width: 56px;
     height: 24px;
     margin: 9px 28px 7px 0;
-    font-family: WorkSans;
+    font-family: 'Work Sans', 'semi-bold';
     font-size: 16px;
     font-weight: 600;
     font-stretch: normal;
@@ -95,55 +69,9 @@
     color: #000000;
 }
 
-.star__1 {
-    position: absolute;
-    top: 458px;
-    left: 499px;
-    right: 687px;
-    bottom: 284px;
+.star {
     width: 31px;
     height: 30px;
     margin: 0 12px;
-    object-fit: contain;
-}
-
-.star__2 {
-    position: absolute;
-    top: 458px;
-    left: 542px;
-    bottom: 280px;
-    right: 627px;
-    width: 31px;
-    height: 30px;
-    margin: 0 12px;
-    object-fit: contain;
-}
-
-.star__3 {
-    position: absolute;
-    top: 458px;
-    left: 585px;
-    width: 31px;
-    height: 30px;
-    margin: 0 12px;
-    object-fit: contain;
-}
-
-.star__4 {
-    position: absolute;
-    top: 458px;
-    left: 628px;
-    width: 31px;
-    height: 30px;
-    margin: 0 12px;
-    object-fit: contain;
-}
-.star__5 {
-    position: absolute;
-    top: 458px;
-    left: 671px;
-    width: 31px;
-    height: 30px;
-    margin: 0 0 0 12px;
     object-fit: contain;
 }
