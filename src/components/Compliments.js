@@ -25,7 +25,7 @@ const Compliments = () => {
                     <div className="send__compliment">
                         Envie um elogio
                     </div>
-                    <ComplimentArray className="caixinhas" compliments={ compliments }/>
+                    <ComplimentArray className="small__box" compliments={ compliments }/>
                     
                     <div className="send__message__alert">
                         <p className="send__message">
@@ -48,6 +48,16 @@ const Compliments = () => {
                     <div>
                         { showOptions ? <Options /> : null }
                     </div>
+                    <div className="skip__compliment">
+                        <p className="skip"
+                        type="submit"
+                        onClick={ () => setShowOptions(false)}> PULAR </p>
+                    </div>
+                    <div className="confirm__compliment"></div>
+                        <p className="confirm"
+                        type="submit"
+                        onClick={ () => setShowOptions(false) }
+                        >CONFIRMAR</p>
               </div>
             )
 }

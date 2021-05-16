@@ -23,11 +23,6 @@ class App extends Component {
         <img className="star" src={ star } alt="estrela"/>
       </div>
         <Compliments />
-      <div className="skip__compliment">
-        <p className="skip"> PULAR </p>
-      </div>
-      <div className="confirm__compliment"></div>
-        <p className="confirm">CONFIRMAR</p>
     </div>
     )
   }

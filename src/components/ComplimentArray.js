@@ -5,10 +5,10 @@ import Compliment from './GenericCompliment';
 class ComplimentArray extends Component {
     render() {
         return (
-            <ul className="caixa__grande">
+            <ul className="large__box" >
             {this.props.compliments.map((i) => {
                 return (
-                    <li className="caixinhas">
+                    <li className="small__box">
                         <Compliment icon={i.icon}>{i.text}</Compliment>
                     </li>
                     )

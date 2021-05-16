@@ -8,6 +8,12 @@
     transform: translate(-50%, -50%);
 }
 
+.small__box {
+    display: inline-block;
+    
+}
+
+
 .send__compliment {
     width: 144px;
     height: 24px;
@@ -26,10 +32,14 @@
 .compliment__container {
     width: 558px;
     height: 32px;
-
 }
 
 .send__compliment__button {
+    position: relative;
+    top: 524px;
+    left: 550px;
+    right: 549px;
+    bottom: 210px;
     width: 101px;
     height: 34px;
     margin: 36px 549px 86px 550px;
@@ -39,6 +49,10 @@
 }
 
 .compliment {
+    top: 532px;
+    left: 574px;
+    bottom: 218px;
+    right: 573px;
     width: 53px;
     height: 18px;
     font-family: 'Work Sans', 'semi-bold';
@@ -73,4 +87,57 @@
     padding: 11px 21px 60px 20px;
     border-radius: 4px;
     border: solid 2px rgba(0, 0, 0, 0.1);
+}
+
+.confirm__compliment { 
+    top: 644px;
+    left: 567px;
+    right: 484px;
+    bottom: 84px;
+    position: absolute;
+    width: 149px;
+    height: 40px;
+    margin: 0 0 0 28px;
+    padding: 8px 19px 0;
+    border-radius: 100px;
+    background-color: #2cc6d0;
+}
+
+.confirm {
+    top: 644px;
+    left: 591px;
+    bottom: 92px;
+    right: 508px;
+    position: absolute;
+    width: 101px;
+    height: 24px;
+    margin: 0 5px 8px;
+    font-family: 'Work Sans', 'semi-bold';
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+}
+
+.skip {
+    position: absolute;
+    top: 653px;
+    left: 483px;
+    right: 661px;
+    bottom: 91px;
+    width: 56px;
+    height: 24px;
+    margin: 9px 28px 7px 0;
+    font-family: 'Work Sans', 'semi-bold';
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: #000000;
 }
