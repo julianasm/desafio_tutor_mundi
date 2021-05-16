@@ -11,11 +11,13 @@ Verifique se você tem o npm instalado:
 
 npm -v
 
-Se você não tiver nenhum dos dois, utilize o comando abaixo:
+Se você não tiver nenhum dos dois, utilize os comandos abaixo:
 
 sudo apt install nodejs
 
-Obs: o pacote npm vem junto com o Node.js
+sudo apt install npm
+
+npm install react react-dom --save
 
 # Como rodar?
 
