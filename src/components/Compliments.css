@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;600&display=swap');
+
+
+.align__box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.send__compliment {
+    width: 144px;
+    height: 24px;
+    margin: 60px 56px 12px 356px;
+    font-family: 'Work Sans', 'semi-bold';
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.83px;
+    color: #000000;
+}
+
+
+.compliment__container {
+    width: 558px;
+    height: 32px;
+
+}
+
+.send__compliment__button {
+    width: 101px;
+    height: 34px;
+    margin: 36px 549px 86px 550px;
+    padding: 8px 24px;
+    border-radius: 100px;
+    border: solid 2px #2cc6d0;
+}
+
+.compliment {
+    width: 53px;
+    height: 18px;
+    font-family: 'Work Sans', 'semi-bold';
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #2cc6d0;
+}
+
+
+.send__message {
+    width: 123px;
+    height: 24px;
+    margin: 23px 4px 12px 356px;
+    font-family: 'Work Sans', 'semi-serif';
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.83px;
+    color: #000000;
+}
+
+.send__box {
+    width: 488px;
+    height: 115px;
+    margin: 12px 356px 60px;
+    padding: 11px 21px 60px 20px;
+    border-radius: 4px;
+    border: solid 2px rgba(0, 0, 0, 0.1);
+}
